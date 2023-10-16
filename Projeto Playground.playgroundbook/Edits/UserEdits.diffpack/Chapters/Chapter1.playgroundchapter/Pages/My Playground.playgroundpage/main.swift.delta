@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Criando um Projeto no Playground Utilizando XCode
+// Definir uma constante com o valor inicial "Steve"
+let name = "Steve"
+
+// Definir uma variável do tipo String opcional com o valor inicial "Jobs"
+var lastName: String? = " Jobs"
+
+// Escrever um print fazendo interpolação com a constante e a variável, definindo um valor default para a variável opcional como "Wozniak"
+print(name + (lastName ?? " Wozniak"))
+
+// Fazer um Optional Binding na variável e dentro da condição fazer outro print com interpolação entre a constante e a variável que foi desembrulhada
+if let unwrappedLastName = lastName {
+    print(name + unwrappedLastName)
+} else {
+    print(name + " Wozniak")
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 677}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
